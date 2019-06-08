@@ -1,0 +1,195 @@
+html {
+  background: url("../images/salmon_and_veggies1.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  background: none !important;
+}
+
+#root {
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+    flex: 20% 0 !important;
+    margin: 10px;
+    justify-content: center;
+  }
+}
+
+.card-deck {
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.recipeTitle {
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 1.85rem !important;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 900;
+  color: #33db15 !important;
+  margin: 0 !important;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.form-control {
+  background-clip: none;
+  border: 0px !important;
+  border-color: #fff;
+  padding: 1.5rem 1rem !important;
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.input-group {
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.iconSize {
+  float: right;
+  font-size: 1.25rem;
+  padding: 0.25rem;
+  color: #33db15;
+}
+
+.fa-twitter-square {
+  padding-right: 1rem;
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar {
+  padding: 0rem !important;
+  justify-content: center !important;
+  background-color: #fff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.searchHeader {
+  font-size: 3rem;
+  font-family: "Oranienbaum", "Times New Roman", Times, serif;
+  line-height: 0.75em;
+  color: #000;
+}
+
+.searchInput {
+  width: 50%;
+  text-align: center;
+}
+
+.followContent {
+  background-color: #fff;
+}
+
+.recipeWrapper {
+  margin: 0;
+  background-color: #fff;
+}
+
+.recipeImgContainer {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.instructionsWrapper {
+  border: 1px solid#ccc;
+  padding: 1rem;
+  text-align: left;
+}
+.ingredientWrapper {
+  margin-top: 1rem;
+  border-bottom: 4px solid #c4c4c4;
+}
+
+.recipeInstructions {
+  background-color: #fff;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  vertical-align: baseline;
+}
+
+.instructionText {
+  font-family: times, serif;
+  color: #3d3c3c;
+}
+
+.recipeImg {
+  max-width: 350px;
+}
+
+.recipeTitleInst {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2rem;
+}
+
+.credits {
+  display: block;
+  font-size: 0.65rem;
+  color: #808080;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 1rem;
+}
+
+.prepWrapper {
+  margin-top: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1.45rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.ingredients {
+  font-family: "Times New Roman", Times, serif;
+  color: #3d3c3c;
+  margin-bottom: 0.5rem;
+}
+
+.timeFrame {
+  font-family: times, serif;
+  border-bottom: 4px solid #c4c4c4;
+  padding-bottom: 0.75rem;
+}
+
+.readyIn {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.07rem;
+  text-transform: uppercase;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: white;
+  background-color: #33db15;
+  padding: 0.5rem !important;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
